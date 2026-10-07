@@ -1,0 +1,24 @@
+---
+title: "Budget tracker: add, track, and delete budgets online"
+sidebarTitle: "Budget Tracker"
+description: "Use the interactive budget tracker to create budgets, log transactions, and delete items. Your data is saved in your browser so it stays after a refresh."
+mode: "wide"
+---
+
+import { BudgetTracker } from "/snippets/budget-tracker.jsx";
+
+Use this working budget tracker to create budgets, add transactions, and delete anything you no longer need. Everything is saved in your browser, so your budgets are still here when you come back on the same device.
+
+<BudgetTracker />
+
+<Note>
+Data is stored only in this browser (local storage). Clearing your browser data, or opening the page on another device, starts with an empty tracker.
+</Note>
+
+## How to use it
+
+- **Add a budget**: enter a name and a spending limit, then select **Add budget**.
+- **Add a transaction**: inside a budget, enter an amount and optional note, then select **Add transaction**.
+- **Delete a transaction**: select **Delete** next to it. The amount is added back to the budget.
+- **Delete a budget**: select **Delete budget** and confirm. Its transactions are deleted too.
+- **Delete everything**: select **Delete all** and confirm.

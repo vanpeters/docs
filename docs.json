@@ -9,12 +9,13 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "pages": [
       {
         "group": "Get Started",
         "icon": "rocket",
         "pages": [
           "index",
+          "tracker",
           "quickstart",
           "faq"
         ]
